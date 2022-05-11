@@ -22,6 +22,7 @@ public class AutoITFileUpload {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		System.out.println(" before click");
+		//commenting this since its not working manually clicking button
 		//driver.findElement(By.xpath("input[@name='upfile']")).click();
 		System.out.println("clicked");
 		Runtime.getRuntime().exec("C:\\Users\\aksha\\Desktop\\Python_Notes\\PythonFiles\\Files for AutoIT\\FileUploadScript.exe");
