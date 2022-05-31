@@ -14,6 +14,7 @@ public class GoogleSearchPage {
 	
 	public GoogleSearchPage(WebDriver driver)
 	{
+		//this points to current driver
 		this.driver = driver;
 	}
 	
