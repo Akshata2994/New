@@ -33,7 +33,7 @@ public class BrowserTest {
 		
 		driver.findElement(By.xpath("//a[contains(@href,'www.instagram')]")).click();
 		
-		
+		//this is wait time
 		Thread.sleep(3000);
 		
 	
